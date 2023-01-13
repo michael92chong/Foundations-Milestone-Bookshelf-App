@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+nav,
+footer {
+    flex: none;
+}
+
+.nav1 {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.topNav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 10px;
+    font-family: sans-serif;
+}
+
+.logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.name {
+    margin-left: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.navBar {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navContent {
+    margin: 8px;
+}
+
+main {
+    padding-top: 75px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 20px;
+    display: block;
+    font-family: sans-serif;
+}
+
+.container1 {
+    align-items: center;
+}
+
+#list {
+    list-style: none;
+    font-family: sans-serif;
+    display: block;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#bookshelf {
+    list-style: none;
+    border: solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: space-between;
+}
+
+li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.commentButton {
+    width: 20px;
+    height: 10px;
+}

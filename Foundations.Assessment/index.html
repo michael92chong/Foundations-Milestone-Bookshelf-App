@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookshelf Web APP</title>
+</head>
+<body>
+    
+    <nav class="nav1">
+        <div class="logo">
+            <h1 class="name">Bookshelf Web APP</h1>
+        </div>
+        <div class="topNav">
+            <div class="topNavBody">
+                <ul class="navBar">
+                    <li class="navContent">
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li class="navContent">
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li class="navContent">
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <input type="text" class="author" placeholder="bookAuthor"> 
+        <input type="text" class="title" placeholder="bookTitle">
+        <input type="text" class="subject" placeholder="bookSubject">
+        <input type="text" class="language" placeholder="bookLanguage">
+        <button class="submit">Submit</button>
+        <ul id="list">Added Books</ul>
+        <section id="bookshelf"></section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
